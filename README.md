@@ -8,7 +8,7 @@
   Welcome to Ohio University EECS. This guide covers the installation of C++ compiler, C++ debugger, WSL environment,  Git, and VS Code customization). Please keep in mind that all the tools are also available on our lab machines (Stocker 107 and 307A). The labs are open all day and can be accessed [remotely](#linux-commands-and-remote-loginfile-transfer). We will also be using [Git/GitHub](#gitgithub) for source/version control. Your projects (homework assignments) will be in our GitHub [2400 classroom](https://github.com/2400-fl-19).
 
   **Important:** In order to be able to use your own computer to do the projects and examples you need to install the following:
-  - C/C++ compiler like GNU C++  or MinGW 
+  - C/C++ compiler like GNU C++ 
   - Git tools
   - A text editor such as VSCode
   
@@ -46,7 +46,7 @@
 - `Windows`: 
   
   
-  - [Install Windows Subsystem for Linux](docs/Windows10-WSL.md) (Recommended)
+  - [Install Windows Subsystem for Linux](docs/Windows-WSL.md) (Recommended)
   
     This will give you a `bash` terminal closer to what Mac and Linux has. If you go through the instructions listed there you can use the same instructions/commands as Linux/Mac that are shown in the rest of this readme file.
 
@@ -139,11 +139,11 @@ The debugger depends on what executable file you set up in the previous step. Ma
 
 ##### Running The Debugger in WSL
 
-- Make sure you installed g++ and the debugger tools when you installed wsl [https://github.com/nasseef/cs2400/blob/main/docs/Windows10-WSL.md#tools](https://github.com/nasseef/cs2400/blob/main/docs/Windows10-WSL.md#tools)
+- Make sure you installed g++ and the debugger tools when you installed wsl [https://github.com/nasseef/cs2400/blob/main/docs/Windows-WSL.md#tools](https://github.com/nasseef/cs2400/blob/main/docs/Windows-WSL.md#tools)
 - Open a WSL terminal 
   - Open PowerShell
   - Type `wsl`
-- Navigate to the project directory (it helps to create a symbolic link to the directory where you stored all your projects). Instructions on how to create a symbolic link can be found here: [https://github.com/nasseef/cs2400/blob/main/docs/Windows10-WSL.md#accessing-your-windows-files](https://github.com/nasseef/cs2400/blob/main/docs/Windows10-WSL.md#accessing-your-windows-files)
+- Navigate to the project directory (it helps to create a symbolic link to the directory where you stored all your projects). Instructions on how to create a symbolic link can be found here: [https://github.com/nasseef/cs2400/blob/main/docs/Windows-WSL.md#accessing-your-windows-files](https://github.com/nasseef/cs2400/blob/main/docs/Windows-WSL.md#accessing-your-windows-files)
 - Start VS Code from the project directory
 - Example (Assuming your project directory is called `project1`):
   ```console 
