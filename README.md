@@ -5,7 +5,7 @@
 
 ---
 
-  Welcome to Ohio University EECS. This guide covers the installation of C++ compiler,C++ debugger, WSL environment,  Git, and VS Code costumization). Please keep in mind that all the tools are also available on our lab machines (Stocker 107 and 307A). The labs are open all day and can be accessed [remotely](#linux-commands-and-remote-loginfile-transfer). We will also be using [Git/GitHub](#gitgithub) for source/version control. Your projects (homework assignments) will be in our GitHub [2400 classroom](https://github.com/2400-fl-19).
+  Welcome to Ohio University EECS. This guide covers the installation of C++ compiler, C++ debugger, WSL environment,  Git, and VS Code customization). Please keep in mind that all the tools are also available on our lab machines (Stocker 107 and 307A). The labs are open all day and can be accessed [remotely](#linux-commands-and-remote-loginfile-transfer). We will also be using [Git/GitHub](#gitgithub) for source/version control. Your projects (homework assignments) will be in our GitHub [2400 classroom](https://github.com/2400-fl-19).
 
   **Important:** In order to be able to use your own computer to do the projects and examples you need to install the following:
   - C/C++ compiler like GNU C++  or MinGW 
