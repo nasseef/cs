@@ -1,4 +1,4 @@
- # CS 2400 C++ Coding Style
+ # C++ Coding Style
  ### Contact: Nasseef Abukamail (abukamai@ohio.edu)
 
 ---
