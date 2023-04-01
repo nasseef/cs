@@ -27,7 +27,7 @@
     - [Extensions](#extensions)
     - [Configure the compiler to run in a terminal](#configure-the-compiler-to-run-in-a-terminal)
     - [Configure Code Runner to use `-Wall -std=c++11 -g`](#configure-code-runner-to-use--wall--stdc11--g)
-    - [Helpfull user snippets](#helpfull-user-snippets)
+    - [Helpful user snippets](#helpful-user-snippets)
   - [Git/GitHub](#gitgithub)
     - [Git Installation](#git-installation)
     - [Create a GitHub account](#create-a-github-account)
@@ -60,7 +60,7 @@ The debugger depends on what executable file you set up in the previous step. Ma
 - Install the extension `CodeLLDB`
 - Click on the debug icon on the left
 - Click on `Run and Debug`
-- Seclect `C++ (GDB/LLDB)
+- Select `C++ (GDB/LLDB)`
 - Select `lldb - Build and debug active file`
 - Edit the file `launch.json` inside the `.vscode` directory and make the following changes:
 ```json
@@ -108,7 +108,7 @@ The debugger depends on what executable file you set up in the previous step. Ma
 - Open the project file `.cc` or `.cpp` file
 - Click on the debug icon on the left
 - Click on `Run and Debug`
-- Seclect `C/C++: g++ build and debug active file`
+- Select `C/C++: g++ build and debug active file`
   
 This setup will use your file name as an executable (without the extension). If you want to use `a.out` as your executable, change `${fileBasenameNoExtension}` to `a.out` in the file `.vscode\task.json`.
 
@@ -167,7 +167,7 @@ You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend
 
 
 
-#### Helpfull user snippets
+#### Helpful user snippets
 VSCode already has built-in snippets such as a *for* loop, *class*, etc. However, you can create your own. Open **User Snippets** under **Preferences**. If you are editing a C++ file then the file **cpp.json** should open automatically. Otherwise, you may have to select it. Here is a sample of snippets that I use [cpp-snippets.json](docs/cpp-snippets.json).
 
 ### Git/GitHub
