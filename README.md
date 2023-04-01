@@ -19,14 +19,14 @@
 - [Ohio University, EECS Development Tools](#ohio-university-eecs-development-tools)
     - [Contact: Nasseef Abukamail (abukamai@ohio.edu)](#contact-nasseef-abukamail-abukamaiohioedu)
   - [Installing **C/C++** compiler](#installing-cc-compiler)
+    - [Configure the Debugger](#configure-the-debugger)
+      - [Mac Setup](#mac-setup)
+      - [Running The Debugger in WSL](#running-the-debugger-in-wsl)
   - [Recommended Editors](#recommended-editors)
   - [VS Code Customization](#vs-code-customization)
     - [Extensions](#extensions)
     - [Configure the compiler to run in a terminal](#configure-the-compiler-to-run-in-a-terminal)
     - [Configure Code Runner to use `-Wall -std=c++11 -g`](#configure-code-runner-to-use--wall--stdc11--g)
-    - [Configure the Debugger](#configure-the-debugger)
-      - [Mac Setup](#mac-setup)
-      - [Running The Debugger in WSL](#running-the-debugger-in-wsl)
     - [Helpfull user snippets](#helpfull-user-snippets)
   - [Git/GitHub](#gitgithub)
     - [Git Installation](#git-installation)
@@ -50,52 +50,6 @@
   
     This will give you a `bash` terminal closer to what Mac and Linux has. If you go through the instructions listed there you can use the same instructions/commands as Linux/Mac that are shown in the rest of this readme file.
 
-
-### Recommended Editors
-
----
-
-You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend Visual Studio Code. It is free and highly customizable. See below for other editors.
-
-- [Visual Studio Code](https://code.visualstudio.com/) (Recommended)
-- [Atom Editor](https://atom.io)
-- [Emacs](https://www.gnu.org/software/emacs)
-- [Vim](https://www.vim.org)
-- [nano](https://www.nano-editor.org/)
-- and many others ....
-
-### VS Code Customization
-
----
-
-#### Extensions
-
-- C/C++ extension from Microsoft (**Required**)
-- Code Runner (optional)
-- Code Spell Checker (optional)
-
-#### Configure the compiler to run in a terminal
-
-- Open `Preferences` and click on `Settings`
-- Find the entry called `Run Code Configuration` (Available if you installed `Code Runner` extension)
-- Enable the options:
-  - `Run in Terminal`
-  - `Save All Files Before Run`
-  - `Save File Before Run`
-
-#### Configure Code Runner to use `-Wall -std=c++11 -g`
-
-- Go to the Settings menu
-- Search for `Code-Runner: Executor Map` and click on `Edit in Settings.json`
-- To be able to compile and run your program using the `Run Code` icon or the shortcut `Ctrl-Alt N`, add the following lines right after the opening brace `{`  in `Settings.json` and save it.
-  
-  ```json
-  "code-runner.executorMap": {
-        "c": "cd $dir && gcc -Wall $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "cpp": "cd $dir && g++ -Wall -std=c++11 -g $fileName && ./a.out"
-    },
-  ```
-    > On Windows use `./a.exe` instead of `./a.out`.   `-g` option is needed to use a debugger such as `gdb` or `lldb`.
 
 #### Configure the Debugger
 
@@ -162,6 +116,54 @@ From this point on, you can click on the green arrow to start debugging. Make su
 
 > Note: you must open the project folder to debug your project.
 > The above steps must be repeated for every project.
+
+
+
+### Recommended Editors
+
+---
+
+You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend Visual Studio Code. It is free and highly customizable. See below for other editors.
+
+- [Visual Studio Code](https://code.visualstudio.com/) (Recommended)
+- [Atom Editor](https://atom.io)
+- [Emacs](https://www.gnu.org/software/emacs)
+- [Vim](https://www.vim.org)
+- [nano](https://www.nano-editor.org/)
+- and many others ....
+
+### VS Code Customization
+
+---
+
+#### Extensions
+
+- C/C++ extension from Microsoft (**Required**)
+- Code Runner (optional)
+- Code Spell Checker (optional)
+
+#### Configure the compiler to run in a terminal
+
+- Open `Preferences` and click on `Settings`
+- Find the entry called `Run Code Configuration` (Available if you installed `Code Runner` extension)
+- Enable the options:
+  - `Run in Terminal`
+  - `Save All Files Before Run`
+  - `Save File Before Run`
+
+#### Configure Code Runner to use `-Wall -std=c++11 -g`
+
+- Go to the Settings menu
+- Search for `Code-Runner: Executor Map` and click on `Edit in Settings.json`
+- To be able to compile and run your program using the `Run Code` icon or the shortcut `Ctrl-Alt N`, add the following lines right after the opening brace `{`  in `Settings.json` and save it.
+  
+  ```json
+  "code-runner.executorMap": {
+        "c": "cd $dir && gcc -Wall $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ -Wall -std=c++11 -g $fileName && ./a.out"
+    },
+  ```
+    > On Windows use `./a.exe` instead of `./a.out`.   `-g` option is needed to use a debugger such as `gdb` or `lldb`.
 
 
 
