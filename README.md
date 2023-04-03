@@ -27,6 +27,7 @@
     - [Extensions](#extensions)
     - [Configure the compiler to run in a terminal](#configure-the-compiler-to-run-in-a-terminal)
     - [Configure Code Runner to use `-Wall -std=c++11 -g`](#configure-code-runner-to-use--wall--stdc11--g)
+    - [Auto Save](#auto-save)
     - [Helpfull user snippets](#helpfull-user-snippets)
   - [Git/GitHub](#gitgithub)
     - [Git Installation](#git-installation)
@@ -165,6 +166,12 @@ You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend
   ```
     > On Windows use `./a.exe` instead of `./a.out`.   `-g` option is needed to use a debugger such as `gdb` or `lldb`.
 
+
+#### Auto Save
+You can configure VS Code to automatically save your file. Several options are available:
+- Open the `Settings` menu option
+- Search for `Auto Save`
+- Select the desired option from the drop-down menu
 
 
 #### Helpfull user snippets
