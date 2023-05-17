@@ -27,6 +27,19 @@ GitHub now requires that users use a Personal Access Token (PAT) to login to Git
 14. In the terminal, when asked for the password click `Ctrl-v` to paste the token you just copied
     > Note the password will not show anything
 
-That's it. You will not be prompted for the password every time you access GitHub from the terminal
+15. If you don't want to be prompted for user name and password(token), issue the following command first:
+    ```console
+    git config --global credential.helper cache
+    ```
+    > Next time you use git, you will be asked for the user name and password(token) one more time
 
-If you suspect that someone had access to your token, you can always delete it and generate a new one
+16. If you re-gnerate your token, make sure you clear your cache first by issuing the following commands:
+    ```console
+    git config --global --unset credential.helper cache
+    git config --global credential.helper cache
+    ```
+    > Next time you use git, you will be asked for the user name and password(token) one more time
+
+That's it. You will not be prompted for the password every time you access GitHub from the terminal.
+
+If you suspect that someone had access to your token, you can always delete it and generate a new one.
