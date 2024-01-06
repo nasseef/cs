@@ -1,6 +1,6 @@
 # Windows Subsystem for Linux
 
-Contributers: Mark May (mm754313@ohio.edu), Nasseef Abukamail (abukamai@ohio.edu)
+Contributers: Parker Corbitt, Mark May, Nasseef Abukamail
 ---
 <br>
 If you see any mistakes or if there is anything that you think should be added to this please feel free to email me or tag me in a
@@ -8,7 +8,7 @@ comment. Also please let me know there is anything unclear here.
 
 
 - [Windows Subsystem for Linux](#windows-subsystem-for-linux)
-  - [Contributers: Mark May (mm754313@ohio.edu), Nasseef Abukamail (abukamai@ohio.edu)](#contributers-mark-may-mm754313ohioedu-nasseef-abukamail-abukamaiohioedu)
+  - [Contributers: Parker Corbitt, Mark May, Nasseef Abukamail](#contributers-parker-corbitt-mark-may-nasseef-abukamail)
   - [What is Windows Subsystem for Linux?](#what-is-windows-subsystem-for-linux)
   - [Why would I use WSL instead of Command Prompt/Powershell?](#why-would-i-use-wsl-instead-of-command-promptpowershell)
   - [Download/Installation Instructions](#downloadinstallation-instructions)
@@ -34,17 +34,9 @@ solution by Microsoft called Windows Subsystem for Linux. It is an optional feat
 distribution of Linux like Ubuntu onto your computer, and run the terminal as if it was a native Windows application.
 
 ## Download/Installation Instructions
-The following video (thanks to Parker Corbitt) shows you a step by step instructions:
+
+The following video (thanks Parker) shows you a step by step instructions:
 [https://www.youtube.com/watch?v=F0wRZoYWggg](https://www.youtube.com/watch?v=F0wRZoYWggg)
-
-Alternatively, you can follow the following instructions:
-Note: if you get this error during the installing:
- ```bash 
-The requested operation requires elevation
-```
-run ***PowerShell*** as an administrator.
-
-![Powershell Admin](powershell-admin.jpg)
 
 ### Important 
 To make sure everything is up to date run the command:
