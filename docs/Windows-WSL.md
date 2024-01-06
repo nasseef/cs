@@ -34,6 +34,10 @@ solution by Microsoft called Windows Subsystem for Linux. It is an optional feat
 distribution of Linux like Ubuntu onto your computer, and run the terminal as if it was a native Windows application.
 
 ## Download/Installation Instructions
+The following video (thanks to Parker Corbitt) shows you a step by step instructions:
+[https://www.youtube.com/watch?v=F0wRZoYWggg](https://www.youtube.com/watch?v=F0wRZoYWggg)
+
+Alternatively, you can follow the following instructions:
 Note: if you get this error during the installing:
  ```bash 
 The requested operation requires elevation
@@ -43,31 +47,11 @@ run ***PowerShell*** as an administrator.
 ![Powershell Admin](powershell-admin.jpg)
 
 ### Important 
-> Your version of Windows 11 may not be compatible with WSL 2. If you're unable to run WSL 2, when you follow the installation instructions on Microsoft's site below, make sure you select WSL version 1.
-> For example use 1 instead of 2 in the following command:
-
-  ```bash
-  wsl --install -d ubuntu 
-  wsl --set-default-version 1
-  ```
-
-The download/installation instructions can be found on the Microsoft website [here.](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-When choosing a distribution of Linux to use, I recommend using one of the latest versions of Ubuntu since that is what we use in the labs. However, you can use whichever one you prefer. 
-
-Installation for Windows 11 may not always work. In that case, try the [manual installation](https://learn.microsoft.com/en-us/windows/wsl/install-manual). 
-
-After setting everything up you should be able to open a terminal that looks similar to:
-
-![terminal example](WSL_Terminal.png)
-
 To make sure everything is up to date run the command:
 
 ```bash
 sudo apt-get update
 ```
-
-Once you are done installing I recommend pinning it to your taskbar or add a shortcut to your desktop for easy access.
-
 ## Tools
 
 After setting everything up you should have access to commands like `git`, `ssh`, and `scp`. You may also need to install the compiler `g++`.
@@ -87,7 +71,12 @@ sudo apt install gdb
 ```
 
 VSCode is automatically set to work with WSL, so you can just download the regular Windows version of VSCode if you haven't already.
-Then using the terminal you can open VSCode with the `code` command and it will automatically open VSCode on Windows. You can even use
+Then using the terminal you can open VSCode with the `code` command and it will automatically open VSCode on Windows. 
+```bash
+code .
+```
+
+You can even use
 the WSL terminal straight in VSCode:
 
 ![example using VSCode with WSL](WSL_VSCode.png)

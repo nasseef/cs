@@ -57,6 +57,7 @@
 **The debugger is configured for every project separately. You must open the project folder in order to use it.**
 
 The debugger depends on what executable file you set up in the previous step. Make sure you open the folder (not the program) where your program resides. You need to do these steps for every project you want to debug.
+
 ##### Mac Setup
 - Install the extension `CodeLLDB`
 - Click on the debug icon on the left
