@@ -14,7 +14,7 @@ comment. Also please let me know there is anything unclear here.
   - [Download/Installation Instructions](#downloadinstallation-instructions)
     - [Important](#important)
   - [Tools](#tools)
-  - [Accessing your Windows Files](#accessing-your-windows-files)
+  - [Accessing your Windows Files (Optional)](#accessing-your-windows-files-optional)
   - [SSH / SCP](#ssh--scp)
 ## What is Windows Subsystem for Linux?
 
@@ -73,7 +73,7 @@ the WSL terminal straight in VSCode:
 
 ![example using VSCode with WSL](WSL_VSCode.png)
 
-## Accessing your Windows Files
+## Accessing your Windows Files (Optional)
 
 When you open up WSL for the first time and you check to see what files you have in your home folder (using the `ls` command) you will
 find that there are no files. You can create new files in WSL's home directory, but if you want to access your files already on your
