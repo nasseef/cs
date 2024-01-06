@@ -12,8 +12,7 @@ comment. Also please let me know there is anything unclear here.
   - [What is Windows Subsystem for Linux?](#what-is-windows-subsystem-for-linux)
   - [Why would I use WSL instead of Command Prompt/Powershell?](#why-would-i-use-wsl-instead-of-command-promptpowershell)
   - [Download/Installation Instructions](#downloadinstallation-instructions)
-    - [Important](#important)
-  - [Tools](#tools)
+  - [Required Tools](#required-tools)
   - [Accessing your Windows Files (Optional)](#accessing-your-windows-files-optional)
   - [SSH / SCP](#ssh--scp)
 ## What is Windows Subsystem for Linux?
@@ -36,29 +35,42 @@ distribution of Linux like Ubuntu onto your computer, and run the terminal as if
 ## Download/Installation Instructions
 
 The following video (thanks Parker) shows you a step by step instructions:
+
 [https://www.youtube.com/watch?v=F0wRZoYWggg](https://www.youtube.com/watch?v=F0wRZoYWggg)
 
-### Important 
-To make sure everything is up to date run the command:
+Alternatively, follow these instructions:
+This set of instructions goes along with the video above. If you are having trouble following this set of instructions, please watch the video and see if it helps. 
 
-```bash
-sudo apt-get update
-```
-## Tools
+1. Search for Features under the start menu
+2. Select "Turn on/off windows features"
+3. Turn on Windows Virtual Machine Platform
+4. Restart Computer
+5. Go to Windows Store
+6. Search for WSL & download
+7. Search for Ubuntu & download
+8. Open Ubuntu, create username and password
+	- Username cannot have numbers, spaces, or uppercase
+	- Password does NOT show up as you type, but it is there (I promise)
+9.  run the command `sudo apt update` 
+10. run the command `sudo apt upgrade`
+11. run the command `sudo apt install g++`
+12. run the command `sudo apt install gdb`
+13. make sure you have git by doing `git --version` If you do not have it, install it using the command:`sudo apt install git`
+    
+14. Download/Install/Open VS Code
+15. Click the double angle brackets in the bottom left
+16. Click "Connect to WSL"
+17. Install the wsl extension, as well as the c++ extension and the c++ extension pack
+18. Make a Hello World Program and try to run it. 
 
-After setting everything up you should have access to commands like `git`, `ssh`, and `scp`. You may also need to install the compiler `g++`.
-To do this you can just run the command:
+## Required Tools
+
+Make sure `g++` compiler and `gdb` are installed. 
+
+If you haven't installed these tools, use the following commands (you will need to enter your password):
 
 ```bash
 sudo apt install g++
-```
-
-If this fails, you may have forgotten to update your terminal in the installation instructions, so just run the `sudo apt-get update` command
-that I mentioned earlier.
-
-If you want the debugger `gdb` you can also install that:
-
-```bash
 sudo apt install gdb
 ```
 
