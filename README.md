@@ -18,7 +18,7 @@
 
 - [Ohio University, EECS Development Tools](#ohio-university-eecs-development-tools)
     - [Contact: Nasseef Abukamail (abukamai@ohio.edu)](#contact-nasseef-abukamail-abukamaiohioedu)
-  - [Installing **C/C++** compiler](#installing-cc-compiler)
+  - [Installing **C/C++** compiler \& **Windows Sybsystem for Linux (WSL)**](#installing-cc-compiler--windows-sybsystem-for-linux-wsl)
     - [Configure the Debugger](#configure-the-debugger)
       - [Mac Setup](#mac-setup)
       - [Running The Debugger in WSL](#running-the-debugger-in-wsl)
@@ -36,7 +36,7 @@
   - [SFTP Client](#sftp-client)
   - [Coding Style](#coding-style)
 
-### Installing **C/C++** compiler
+### Installing **C/C++** compiler & **Windows Sybsystem for Linux (WSL)**
 
 ---
 
