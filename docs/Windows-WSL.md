@@ -50,9 +50,9 @@ This set of instructions goes along with the video above. If you are having trou
 5. Search for WSL & download
 6. Search for Ubuntu & download
 7. Open Ubuntu and follow the setup prompts (creating username and password)
-    - Username cannot have numbers, spaces, or uppercase. It can only have lowercase letters
-    - Password does *not* show up as you type, but it is there. You should be able to use whatever characters you want for this
-    - *Remember your password!* Write it down, do whatever you need. Recovery is a process in which various amounts of documentation exist for online. If you are still during setup and forget your password, it is more than likely simpler to just unregister your distrobution and start fresh by reopening Ubuntu
+   1. Username cannot have numbers, spaces, or uppercase. It can only have lowercase letters
+   2. Password does *not* show up as you type, but it is there. You should be able to use whatever characters you want for this
+   3. *Remember your password!* Write it down, do whatever you need. Recovery is a process in which various amounts of documentation exist for online. If you are still during setup and forget your password, it is more than likely simpler to just unregister your distrobution and start fresh by reopening Ubuntu
 8. run the command `sudo apt update`
 	1. this command invokes a package manager *aptitude*. aptitude is a very common package manager, abbreviated to `apt` when running commands. A package manager provides functionality to quickly and efficiently update your software. This command specifically downloads all of the updates for every currently installed package.
 9. run the command `sudo apt upgrade`
