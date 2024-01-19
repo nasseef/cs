@@ -42,6 +42,7 @@
 
 - `Mac`:
     Start the terminal program (Search for `Terminal`). Install the `Command Line Tools` using the command `xcode-select --install`. This will also install `git`. Alternatively, you can install Xcode and install the `Command Line Tools` after you run it the first time.
+    It is also recommended to install brew (a package manager) with the following command: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - `Linux`: Should already come with GNU g++ preinstalled.
 
 - `Windows`: 
