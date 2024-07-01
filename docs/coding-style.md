@@ -44,6 +44,7 @@
 
   ```
 
+* Place all function prototypes above the main function and all function definitions below the main function.
 * Use triple slashes `///` for [Doxygen](http://www.doxygen.nl/manual/docblocks.html) style line comments
 * Always prompt the user for input
 * The program output should be readable and clearly labeled
