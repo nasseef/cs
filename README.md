@@ -19,10 +19,10 @@
 - [Ohio University, EECS Development Tools](#ohio-university-eecs-development-tools)
     - [Contact: Nasseef Abukamail (abukamai@ohio.edu)](#contact-nasseef-abukamail-abukamaiohioedu)
   - [Installing **C/C++** compiler \& **Windows Sybsystem for Linux (WSL)**](#installing-cc-compiler--windows-sybsystem-for-linux-wsl)
+  - [Recommended Editors](#recommended-editors)
     - [Configure the Debugger](#configure-the-debugger)
       - [Mac Setup](#mac-setup)
       - [Running The Debugger in WSL](#running-the-debugger-in-wsl)
-  - [Recommended Editors](#recommended-editors)
   - [VS Code Customization](#vs-code-customization)
     - [Extensions](#extensions)
     - [Configure the compiler to run in a terminal](#configure-the-compiler-to-run-in-a-terminal)
@@ -50,6 +50,21 @@
   - [Install Windows Subsystem for Linux](docs/Windows-WSL.md) (Recommended)
   
     This will give you a `bash` terminal closer to what Mac and Linux has. If you go through the instructions listed there you can use the same instructions/commands as Linux/Mac that are shown in the rest of this readme file.
+
+
+
+### Recommended Editors
+
+---
+
+You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend Visual Studio Code. It is free and highly customizable. See below for other editors.
+
+- [Visual Studio Code](https://code.visualstudio.com/) (Recommended)
+- [Atom Editor](https://atom.io)
+- [Emacs](https://www.gnu.org/software/emacs)
+- [Vim](https://www.vim.org)
+- [nano](https://www.nano-editor.org/)
+- and many others ....
 
 
 #### Configure the Debugger
@@ -120,19 +135,6 @@ From this point on, you can click on the green arrow to start debugging. Make su
 > The above steps must be repeated for every project.
 
 
-
-### Recommended Editors
-
----
-
-You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend Visual Studio Code. It is free and highly customizable. See below for other editors.
-
-- [Visual Studio Code](https://code.visualstudio.com/) (Recommended)
-- [Atom Editor](https://atom.io)
-- [Emacs](https://www.gnu.org/software/emacs)
-- [Vim](https://www.vim.org)
-- [nano](https://www.nano-editor.org/)
-- and many others ....
 
 ### VS Code Customization
 
