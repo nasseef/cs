@@ -20,7 +20,7 @@
     - [Contact: Nasseef Abukamail (abukamai@ohio.edu)](#contact-nasseef-abukamail-abukamaiohioedu)
   - [Installing **C/C++** compiler \& **Windows Sybsystem for Linux (WSL)**](#installing-cc-compiler--windows-sybsystem-for-linux-wsl)
   - [Recommended Editors](#recommended-editors)
-    - [Configure the Debugger](#configure-the-debugger)
+  - [Configure the Debugger](#configure-the-debugger)
       - [Mac Setup](#mac-setup)
       - [Running The Debugger in WSL](#running-the-debugger-in-wsl)
   - [VS Code Customization](#vs-code-customization)
@@ -52,7 +52,6 @@
     This will give you a `bash` terminal closer to what Mac and Linux has. If you go through the instructions listed there you can use the same instructions/commands as Linux/Mac that are shown in the rest of this readme file.
 
 
-
 ### Recommended Editors
 
 ---
@@ -67,7 +66,7 @@ You need a good programming editor (**DO NOT USE WINDOWS Notepad**). I recommend
 - and many others ....
 
 
-#### Configure the Debugger
+### Configure the Debugger
 
 **The debugger is configured for every project separately. You must open the project folder in order to use it.**
 
